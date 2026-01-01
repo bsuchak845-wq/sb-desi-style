@@ -1,3 +1,4 @@
-SB Desi Style Official Website
-Free HTML + CSS Website
-Hosted using GitHub Pages
+<p>
+SB Desi Style is an official Indian clothing brand.
+We provide quality desi fashion with modern style.
+</p>
