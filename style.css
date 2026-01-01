@@ -1,56 +1,103 @@
+/* Body and general */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
-  background: #f4f4f4;
+  background: #f8f8f8;
   text-align: center;
+  color: #333;
 }
 
+/* Header */
 header {
-  background: #000;
+  background: #222;
   color: white;
-  padding: 20px;
+  padding: 25px 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
+header h1 {
+  font-size: 2.8em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-top: 5px;
+  color: #f0a500;
+}
+
+/* Navigation */
 nav {
-  background: #ff9933;
-  padding: 10px;
+  background: #f0a500;
+  padding: 12px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 nav a {
-  margin: 10px;
-  color: black;
+  margin: 0 15px;
+  color: #222;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1em;
 }
 
+nav a:hover {
+  color: white;
+}
+
+/* Sections */
 section {
-  padding: 30px;
+  padding: 40px 20px;
   background: white;
-  margin: 20px;
-  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
+/* Collections boxes */
 .box {
-  background: #eee;
-  padding: 20px;
-  margin: 10px;
+  background: #f0a500;
+  color: white;
+  padding: 25px;
+  margin: 15px;
   display: inline-block;
-  width: 150px;
-  border-radius: 8px;
+  width: 200px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
 }
 
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Buttons */
 .btn {
   display: inline-block;
-  background: green;
-  color: white;
-  padding: 12px 20px;
+  background: #222;
+  color: #f0a500;
+  padding: 14px 28px;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 12px;
   font-weight: bold;
+  font-size: 1em;
+  transition: background 0.3s, color 0.3s;
 }
 
+.btn:hover {
+  background: #f0a500;
+  color: #222;
+}
+
+/* Footer */
 footer {
-  background: #000;
+  background: #222;
   color: white;
-  padding: 10px;
+  padding: 15px 10px;
+  margin-top: 20px;
+  font-size: 0.9em;
 }
